@@ -16,7 +16,7 @@ Installation
 
     bash
 
-git clone https://github.com/blackhatninja/phone-number-location-tracker.git
+git clone https://github.com/Black-Hat-Ninja/Phone-Number-location-Tracker.git
 
 Install the required dependencies:
 
