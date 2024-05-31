@@ -31,7 +31,7 @@ def banner():
   | $$      | $$  | $$|  $$$$$$/| $$  | $$|  $$$$$$$      | $$ \  $$|  $$$$$$/| $$ | $$ | $$| $$$$$$$/|  $$$$$$$| $$               | $$| $$     |  $$$$$$$|  $$$$$$$| $$ \  $$|  $$$$$$$| $$      
   |__/      |__/  |__/ \______/ |__/  |__/ \_______/      |__/  \__/ \______/ |__/ |__/ |__/|_______/  \_______/|__/               |__/|__/      \_______/ \_______/|__/  \__/ \_______/|__/      
 
-coded by: @blackhatninja                                    Track your girlfriend maybe shes taking a big ninja dick
+coded by: @blackhatninja
 mentained by: @blackhatninja
 """
   print(font)
@@ -64,8 +64,9 @@ print(lat, lng)
 
 #Now we will save the map in a .html file
 
-myMap = folium.Map(location=[lat, lng], zoom_start=9)
+myMap = folium.Map(location = [lat, lng], zoom_start=9)
 folium.Marker([lat, lng], popup=location).add_to(myMap)
+myMap.save("myLocation.html")
 
 #end of the fucking program
 #support blackhatninjas
